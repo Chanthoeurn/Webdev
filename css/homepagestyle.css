@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    width: 1366px;
+    height: 5000pxpx;
+    margin: auto;
+    overflow: hidden;
+    background-color: red;
+}
+
+
+
+.Head{
+    width: 100%;
+    height: 70px;
+    background-color: #75FFAC;
+}
+.Head .logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    padding: 5px;
+    float: left;
+}
+.Head .item ul{
+    list-style: none;
+    margin-right: 10px;
+    float:right;
+}
+.Head .item ul li{
+    float: left;
+}
+.Head .item ul li a{
+    padding: 10px;
+    color: white !important;
+    font-size: 30px;
+   
+}
+.Head .item ul li a .fab .fa-facebook-f{
+    padding: 10px;
+    color: white !important;
+    font-size: 30px;
+   
+}
+
+.Content{
+    width: 100%;
+    height: 4080px;
+    background-color: blue;
+}
+.Content .menu{
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/farm.png);
+}
+.Content .menu .nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+}
+
+.Content .menu .nav ul{
+    list-style: none;
+    float:right;
+}
+
+.Content .menu .nav ul li{
+    float: left;
+    padding: 20px 20px;
+}
+.Content .menu .nav ul li a{
+   text-decoration: none;
+   display: block;
+   color: white;
+   border: 1px ;
+   border-radius: 15px;
+   padding: 10px;
+   font-size: 15px;
+   background-color: #F1E97C;
+   box-shadow: 0px 3px 5px gray;
+   font-family: 'Preahvihear', cursive;
+   
+}
+.Content .menu .nav ul li a:hover{
+   
+    background-color: #75FFAC;
+    transition: 0.2s;
+ }
+.welcome_text{
+    font-family: 'Preahvihear', cursive;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+}
+
+.Content .Content1{
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-color: #75FFAC;
+}
+
+.Content .Content1 .Content1_left{
+   
+    width: 370px;
+    height: 350px;
+    margin: 20px;
+    margin-left: 55px; 
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px gray;
+ }
+
+.Footer{
+    width: 100%;
+    height: 50px;
+    background-color: #75FFAC;
+}
