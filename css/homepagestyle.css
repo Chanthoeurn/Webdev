@@ -39,9 +39,9 @@ body{
     font-size: 30px;
    
 }
-.Head .item ul li a .fab .fa-facebook-f{
+.Head .item ul li a{
     padding: 10px;
-    color: white !important;
+    color: white;
     font-size: 30px;
    
 }
